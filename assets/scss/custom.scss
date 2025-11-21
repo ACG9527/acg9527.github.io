@@ -1,18 +1,24 @@
 /*
     You can add your own custom styles here.
 */
-// 定位侧边栏的“头像+名称+社交按钮”容器，强制居中
-.sidebar .profile-section {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  width: 100% !important;
-  margin: 0 auto !important;
-}
-
-// 确保容器内的子元素（头像、文字、按钮）继承居中对齐
-.sidebar .profile-section > * {
-  text-align: center !important;
+// 头像居中（复用之前生效的逻辑）
+.sidebar .avatar {
   margin-left: auto !important;
   margin-right: auto !important;
+  display: block !important;
+}
+
+// 名称、副标题居中（保留之前有效的代码）
+.profile {
+  .name, .subtitle {
+    text-align: center !important;
+  }
+}
+
+// 社交按钮居中（补充匹配模板的类名）
+.sidebar .social {
+  justify-content: center !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  display: flex !important;
 }
