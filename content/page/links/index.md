@@ -9,6 +9,10 @@ links:
     description: 全球最大的独立游戏发行平台，上至R18下至儿童益智游戏。
     website: https://itch.io
     image: https://static.itch.io/images/itchio-textless-black.svg
+  - title: 禁漫天堂
+    description: 建议搜索350234
+    website: https://jmcomic-zzz.one
+    image: https://cdn-msp2.jmcomic-zzz.one/media/logo/new_logo.png?t=1761722240
 menu:
     main: 
         weight: 4
