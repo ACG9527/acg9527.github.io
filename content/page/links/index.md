@@ -5,7 +5,6 @@ links:
     description: GitHub is the world's largest software development platform.
     website: https://github.com
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-links:
   - title: Itch
     description: 全球最大的独立游戏发行平台，上至R18下至儿童益智游戏.
     website: https://itch.io
