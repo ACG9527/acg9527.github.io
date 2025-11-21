@@ -1,29 +1,27 @@
 /*
     You can add your own custom styles here.
 */
-// 侧边栏全局元素居中（包含头像、名称、副标题、社交按钮）
-.sidebar {
-  // 侧边栏容器全局居中
+// 头像居中
+.sidebar .avatar {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+}
+
+// 网站名称+简介居中
+.sidebar .profile {
+  .name, .subtitle {
+    text-align: center !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+// 社交按钮居中
+.sidebar .social {
   justify-content: center !important;
-  text-align: center !important;
-
-  // 头像居中（取消默认偏移）
-  .avatar {
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  // 名称、副标题文字居中
-  .profile {
-    .name, .subtitle {
-      text-align: center !important;
-    }
-  }
-
-  // 社交按钮居中
-  .social {
-    justify-content: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
 }
