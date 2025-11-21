@@ -12,7 +12,7 @@ links:
   - title: 禁漫天堂
     description: 建议搜索350234
     website: https://jmcomic-zzz.one
-    image: https://cdn-msp2.jmcomic-zzz.one/media/logo/new_logo.png?t=1761722240
+    image: https://cdn-msp3.jmcomic-zzz.one/templates/frontend/airav/img/title-png/more-ms-jm.webp?v=2
 menu:
     main: 
         weight: 4
