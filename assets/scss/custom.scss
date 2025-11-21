@@ -1,12 +1,13 @@
 /*
     You can add your own custom styles here.
 */
-// 侧边栏全局居中（覆盖默认 justify-start）
+// 侧边栏全局元素居中（包含头像、名称、副标题、社交按钮）
 .sidebar {
+  // 侧边栏容器全局居中
   justify-content: center !important;
   text-align: center !important;
 
-  // 头像居中（取消默认左边距）
+  // 头像居中（取消默认偏移）
   .avatar {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -17,5 +18,12 @@
     .name, .subtitle {
       text-align: center !important;
     }
+  }
+
+  // 社交按钮居中
+  .social {
+    justify-content: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
