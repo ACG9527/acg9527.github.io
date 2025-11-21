@@ -2,26 +2,23 @@
     You can add your own custom styles here.
 */
 // 头像居中
-.sidebar .avatar {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  display: block !important;
+.sidebar .avatar-container {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
 }
 
 // 网站名称+简介居中
 .sidebar .profile {
-  .name, .subtitle {
-    text-align: center !important;
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
+  text-align: center !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 // 社交按钮居中
-.sidebar .social {
+.sidebar .social-links {
+  display: flex !important;
   justify-content: center !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
   width: 100% !important;
 }
