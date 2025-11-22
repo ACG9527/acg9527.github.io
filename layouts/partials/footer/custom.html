@@ -7,3 +7,21 @@
         ]
     })
 </script>
+<script>
+    pjax._handleResponse = pjax.handleResponse;
+    pjax.handleResponse = function(responseText, request, href, options) {
+        if (request.responseText.match("<html")) {
+            if (responseText) {
+                // 将新页面的html字符串解析成DOM对象
+                let newDom = new DOMParser().parseFromString(responseText, 'text/html');
+                // 获取新页面中body的className，并设置回当前页面
+                let bodyClass = newDom.body.className;
+                document.body.setAttribute("class", bodyClass)
+            }
+            // 放行，交给pjax自己处理
+            pjax._handleResponse(responseText, request, href, options);
+        } else {
+            // handle non-HTML response here
+        }
+    }
+</script>
