@@ -59,10 +59,6 @@ type = "toc"
 site = ""
 card = "summary_large_image"
 
-[opengraph.douyin]
-site = ""
-card = "summary_large_image"
-
 [defaultImage.opengraph]
 enabled = false
 local = false
