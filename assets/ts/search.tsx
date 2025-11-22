@@ -2,7 +2,7 @@
  * 记得把window.addEventListener('load' ...这部分代码注释掉
  * 初始化工作交给Stack.init()处理了，不需要这个了
  */  
-...
+/*...
 function searchInit() {
     let search = document.querySelector('.search-result');
     if (search) {
@@ -23,4 +23,4 @@ function searchInit() {
 
 export {
     searchInit
-}
+} */
