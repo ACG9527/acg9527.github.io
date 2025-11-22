@@ -13,10 +13,23 @@ links:
     description: 建议搜索350234
     website: https://jmcomic-zzz.one
     image: https://cdn-msp3.jmcomic-zzz.one/templates/frontend/airav/img/title-png/more-ms-jm.webp?v=2
-  - title: lightnode
-    description: 免费在线图像压缩器 图片压缩并进行质量控制
-    website: https://go.lightnode.com
-    image: https://go.lightnode.com
+  - title: 黄油资源库
+    description: 一些热门黄油都有
+    website: https://olist.galgames.vip
+    image: https://res.oplist.org/logo/logo.svg
+  - title: Gemini
+    description: 谷歌ai
+    website: https://gemini.google.com
+    image: https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg
+  - title: MISSAV
+    description: 日本AV
+    website: https://missav.ws
+    image: https://assets.st-note.com/production/uploads/images/225328676/rectangle_large_type_2_7e850ddfb871fd97dd715517e2fa741e.png?width=1280
+
+
+
+
+    
 menu:
     main: 
         weight: 4
