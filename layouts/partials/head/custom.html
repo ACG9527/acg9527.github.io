@@ -130,27 +130,24 @@
 <script>	
     function initLoading() {
         let loading = document.querySelector(".loading");
-
         document.addEventListener('DOMContentLoaded', function() {
-            // 让动画先旋转一段时间（如 300ms）
+            // 本地页面加载速度快，可自行使用setTimeout()来进行延迟，体验加载动画效果
+            // 执行加载完成动画
+            loadFinish();
+            // 延迟1.5s，待加载完成动画执行结束
             setTimeout(() => {
-                loadFinish();
-                // 等待淡出动画结束后隐藏
-                setTimeout(() => {
-                    loading.style.display = "none";
-                }, 1500);
-            }, 300); // 让它旋转一会儿再暂停
+                loading.style.display = "none";
+            }, 1500)
         });
     }
 	
     function loadFinish() {
         // 暂停动画
-        let sharingon = document.querySelector(".sharingon");
-        sharingon.classList.add("animated-stop");
-
-        // 放大并渐淡
+        let sharingon= document.querySelector(".sharingon");
+        sharingon.classList.add("animated-stop")
+        // 放大并渐变到透明
         let loading = document.querySelector(".loading");
-        loading.classList.add("scaleAndFadeout");
+        loading.classList.add("scaleAndFadeout")
     }
 	
     initLoading();
