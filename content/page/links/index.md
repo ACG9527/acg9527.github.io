@@ -13,6 +13,10 @@ links:
     description: 建议搜索350234
     website: https://jmcomic-zzz.one
     image: https://cdn-msp3.jmcomic-zzz.one/templates/frontend/airav/img/title-png/more-ms-jm.webp?v=2
+  - title: lightnode
+    description: 免费在线图像压缩器 图片压缩并进行质量控制
+    website: https://go.lightnode.com
+    image: https://go.lightnode.com
 menu:
     main: 
         weight: 4
