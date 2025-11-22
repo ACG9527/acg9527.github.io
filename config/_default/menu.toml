@@ -22,3 +22,11 @@ url = "https://twitter.com"
 
 [social.params]
 icon = "brand-twitter"
+
+[[social]]
+identifier = "douyin"
+name = "Douyin"
+url = "https://douyin.com"
+
+[social.params]
+icon = "brand-douyin"
