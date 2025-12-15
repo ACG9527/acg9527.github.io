@@ -23,3 +23,11 @@ url = "https://twitter.com"
 [social.params]
 icon = "brand-twitter"
 
+[[social]]
+identifier = "bilibili"
+name = "Bilibili"
+url = "https://space.bilibili.com/2117405869"
+
+[social.params]
+icon = "brand-bilibili"
+newTab = true
