@@ -1,6 +1,22 @@
 /*
     You can add your own custom styles here.
 */
+
+/*-----------归档页面----------*/
+//归档页面卡片缩放
+.article-list--tile article {
+  transition: .6s ease;
+}
+
+.article-list--tile article:hover {
+  transform: scale(1.03, 1.03);
+}
+
+
+
+
+
+
 // 菜单栏样式
 // 下拉菜单改圆角样式
 .menu {
