@@ -16,3 +16,20 @@ disqusShortname = ""
 
 [pagination]
 pagerSize = 5
+
+[params.comments]
+enabled = true
+provider = "giscus"
+
+[params.comments.giscus]
+repo = "ACG9527/acg9527.github.io"
+repoId = "R_kgDOQaE8NA"
+category = "Announcements"
+categoryId = "DIC_kwDOQaE8NM4CyFB0"
+mapping = "pathname"
+reactionsEnabled = 1
+emitMetadata = 0
+inputPosition = "bottom"
+theme = "preferred_color_scheme"
+lang = "zh-CN"
+loading = "lazy"
