@@ -92,13 +92,14 @@
 
     initScrollTop();
 </script>
+{{ $posts := where .Site.RegularPages "Kind" "page" }}
 
 <div class="site-stats" style="font-size: 14px; line-height: 1.6; opacity: .8;">
   <div id="site-runtime"></div>
 
   <div>
-    共发表 {{ len .Site.RegularPages }} 篇文章 ·
-    总计 {{ div .Site.WordCount 1000.0 | printf "%.2f" }}k 字
+    共发表 {{ len $posts }} 篇文章 ·
+    总计 {{ div (sum $posts "WordCount") 1000.0 | printf "%.2f" }}k 字
   </div>
 
   <div>
@@ -122,7 +123,8 @@
 
     const el = document.getElementById("site-runtime");
     if (el) {
-      el.innerText = `本博客已运行 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒`;
+      el.innerText =
+        `本博客已运行 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒`;
     }
   }
 
@@ -131,5 +133,3 @@
 </script>
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-
