@@ -1,0 +1,41 @@
+{{/* 只统计真正的文章：Section = "post" */}}
+{{ $posts := where .Site.RegularPages "Section" "post" }}
+
+<div class="site-stats" style="margin-top: 8px; font-size: 14px; line-height: 1.6; opacity: .8;">
+  <div id="site-runtime"></div>
+
+  <div>
+    共发表 {{ len $posts }} 篇文章
+  </div>
+
+  <div>
+    本博客总访问量 <span id="busuanzi_value_site_pv">--</span> 次
+  </div>
+</div>
+
+<script>
+  const startTime = new Date("2025-10-01T00:00:00"); // ← 改成你的建站时间
+
+  function updateRuntime() {
+    const now = new Date();
+    let diff = Math.floor((now - startTime) / 1000);
+
+    const days = Math.floor(diff / (3600 * 24));
+    diff %= 3600 * 24;
+    const hours = Math.floor(diff / 3600);
+    diff %= 3600;
+    const minutes = Math.floor(diff / 60);
+    const seconds = diff % 60;
+
+    const el = document.getElementById("site-runtime");
+    if (el) {
+      el.innerText =
+        `本博客已运行 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒`;
+    }
+  }
+
+  updateRuntime();
+  setInterval(updateRuntime, 1000);
+</script>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
