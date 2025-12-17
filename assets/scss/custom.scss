@@ -12,6 +12,20 @@
   transform: scale(1.03, 1.03);
 }
 
+/*主页布局间距调整*/
+.main-container {
+  gap: 50px; //文章宽度
+
+  @include respond(md) {
+    padding: 0 30px;
+    gap: 40px; //中等屏幕时的文章宽度
+  }
+}
+
+.related-contents {
+  overflow-x: visible; //显示隐藏的图标
+  padding-bottom: 15px;
+}
 
 
 
