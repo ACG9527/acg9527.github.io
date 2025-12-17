@@ -31,3 +31,12 @@ url = "https://space.bilibili.com/2117405869"
 [social.params]
 icon = "brand-bilibili"
 newTab = true
+
+[[social]]
+identifier = "telegram"
+name = "Telegram"
+url = "https://t.me/@SHGQQ"
+
+[social.params]
+icon = "brand-telegram"
+newTab = true
