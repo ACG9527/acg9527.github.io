@@ -6,13 +6,14 @@ favicon = "/favicon.png"
 
 [footer]
 since = 2025
-customText = "<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+customText = ""
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
 
 <script language="javascript"> 
     var now = new Date();
     function createtime(){
         now.setTime(now.getTime()+250); // 当前时间
-        var grt= new Date("2025/11/15 00:00:00"); //网站诞生时间
+        var grt= new Date("20xx/xx/xx 00:00:00"); //网站诞生时间
         days = (now - grt ) / 1000 / 60 / 60 / 24;
         dnum = Math.floor(days);
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
@@ -29,8 +30,7 @@ customText = "<span id="timeDate">载入天数...</span><span id="times">载入�
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"
     }
     setInterval("createtime()",250); 
-</script> 
-"
+</script>
 
 [dateFormat]
 published = "2006年01月02日 15:04"
