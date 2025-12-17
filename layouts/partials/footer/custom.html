@@ -94,3 +94,39 @@
     initScrollTop();
 </script>
 
+<!-- Mobile back button -->
+<div class="mobile-back" onclick="history.back()">
+  <span class="arrow">‹</span> 返回
+</div>
+
+<style>
+  /* 只在窄屏显示（手机） */
+  @media (max-width: 768px) {
+    .mobile-back{
+      position: fixed;
+      left: 16px;
+      top: 72px;            /* 这里自己微调，避开浏览器顶部栏 */
+      z-index: 9999;
+      background: rgba(255,255,255,.92);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(0,0,0,.06);
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-size: 14px;
+      line-height: 1;
+      box-shadow: 0 8px 24px rgba(0,0,0,.08);
+      user-select: none;
+    }
+    .mobile-back .arrow{
+      display:inline-block;
+      margin-right: 6px;
+      font-size: 18px;
+      transform: translateY(-1px);
+    }
+  }
+
+  /* 大屏不显示 */
+  @media (min-width: 769px) {
+    .mobile-back{ display:none; }
+  }
+</style>
