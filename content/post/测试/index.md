@@ -1,6 +1,7 @@
 ---
 title: 测试
 description: 用来练习的
+image: 封面图.jpg
 date: 2025-12-18T3:59:00+08:00
 ---
 
