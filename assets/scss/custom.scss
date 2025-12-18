@@ -1,6 +1,56 @@
 /*
     You can add your own custom styles here.
 */
+
+/* 让“暗色模式”在移动端菜单里看起来和其他菜单项一致 */
+#main-menu {
+  /* 去掉底部功能区那张“独立卡片”的背景/阴影/内边距 */
+  .menu-bottom-section {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  /* 底部功能区内部的列表也按普通菜单一样排版 */
+  .menu-bottom-section ol {
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* 跟你上面菜单 gap 一致 */
+  }
+
+  /* 把 toggle-theme 按“菜单项”的样式来做 */
+  .menu-bottom-section .toggle-theme {
+    width: 100%;
+    display: inline-flex !important;
+    align-items: center;
+    gap: var(--menu-icon-separation);
+    padding: 0 !important;          /* 关键：去掉它自己那层 padding */
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: var(--body-text-color) !important;
+    font-size: 1.6rem;              /* 跟 .menu 的字号一致 */
+  }
+
+  .menu-bottom-section .toggle-theme svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: 1.33;
+  }
+
+  /* 如果右侧还有一个“开关/圆点”之类的控件，你不想要它，就隐藏 */
+  .menu-bottom-section .toggle-theme .toggle,
+  .menu-bottom-section .toggle-theme .switch {
+    display: none !important;
+  }
+}
+
+
 #main-menu {
   // 左侧导航栏主菜单上下间距
   margin: auto;
