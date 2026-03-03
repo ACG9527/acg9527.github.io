@@ -16,7 +16,7 @@
 <meta property='og:description' content="關於如何使用 Stack 主題的文章">
 <meta property='og:url' content='https://example.org/zh-hant-tw/categories/documentation/'>
 <meta property='og:site_name' content='Hugo 主題 Stack'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-01-26T00:00:00&#43;00:00 '/><meta property='og:image' content='https://example.org/' />
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-03-03T11:42:48&#43;00:00 '/><meta property='og:image' content='https://example.org/' />
 <meta name="twitter:title" content="文檔">
 <meta name="twitter:description" content="關於如何使用 Stack 主題的文章"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://example.org/' /><link rel="alternate" type="application/rss&#43;xml" href="https://example.org/zh-hant-tw/categories/documentation/index.xml">
@@ -520,6 +520,103 @@
         </div>
         
 <script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
+
+<style>
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(https://example.org/icons/backTop.svg);
+         
+        background-repeat: no-repeat;     
+        background-size: contain;         
+        background-position: center;     
+        background-color: transparent;    
+    }
+</style>
+
+<script>
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
+</script>
 
 
     </body>
