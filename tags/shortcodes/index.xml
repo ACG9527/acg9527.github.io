@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Shortcodes on 松鹤</title>
-        <link>https://example.com/tags/shortcodes/</link>
+        <link>https://acg9527.github.io/tags/shortcodes/</link>
         <description>Recent content in Shortcodes on 松鹤</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>松鹤</copyright>
-        <lastBuildDate>Wed, 04 Mar 2026 14:02:02 +0800</lastBuildDate><atom:link href="https://example.com/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 04 Mar 2026 14:02:02 +0800</lastBuildDate><atom:link href="https://acg9527.github.io/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Rich Content</title>
-        <link>https://example.com/p/rich-content/</link>
+        <link>https://acg9527.github.io/p/rich-content/</link>
         <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/rich-content/</guid>
+        <guid>https://acg9527.github.io/p/rich-content/</guid>
         <description>&lt;p&gt;Hugo ships with several &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Built-in Shortcodes 
 
