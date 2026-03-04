@@ -7,12 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>松鹤</copyright>
-        <lastBuildDate>Wed, 04 Mar 2026 16:20:22 +0800</lastBuildDate><atom:link href="https://example.com/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 04 Mar 2026 16:24:13 +0800</lastBuildDate><atom:link href="https://example.com/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>用 Termux &#43; Hugo 在手机上搭建个人博客</title>
-        <link>https://example.com/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+        <link>https://example.com/p/%E7%94%A8-termux--hugo-%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Wed, 04 Mar 2026 16:00:00 +0800</pubDate>
         
-        <guid>https://example.com/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+        <guid>https://example.com/p/%E7%94%A8-termux--hugo-%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
         <description>&lt;p&gt;在这个信息爆炸的时代，拥有一个完全属于自己的博客，不仅是技术能力的体现，更是记录思考、分享知识的绝佳方式。今天，我将带你一步步在手机上，利用 Termux 和 Hugo，从零开始搭建一个属于你自己的静态博客。&lt;/p&gt;
 &lt;h2 id=&#34;一为什么选择-termux--hugo&#34;&gt;一、为什么选择 Termux + Hugo？
 &lt;/h2&gt;&lt;ul&gt;
