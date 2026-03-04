@@ -2,319 +2,144 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/ja/categories/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
+    <loc>https://example.com/ja/categories/</loc>
+    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.org/en/categories/"
+                href="https://example.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://example.org/categories/"
+                hreflang="zh-tw"
+                href="https://example.com/zh-tw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/categories/"
+                hreflang="zh-cn"
+                href="https://example.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/categories/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/tags/gallery/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/tags/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/tags/gallery/"
+                hreflang="ar"
+                href="https://example.com/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://example.org/ja/tags/gallery/"
+                href="https://example.com/ja/categories/"
                 />
   </url><url>
-    <loc>https://example.org/ja/page/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
+    <loc>https://example.com/ja/p/test-chinese/</loc>
+    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://example.com/p/test-chinese/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://example.com/zh-tw/p/test-chinese/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://example.com/ja/p/test-chinese/"
+                />
+  </url><url>
+    <loc>https://example.com/ja/post/</loc>
+    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://example.com/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://example.com/zh-tw/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://example.com/ja/post/"
+                />
+  </url><url>
+    <loc>https://example.com/ja/categories/test/</loc>
+    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://example.com/zh-tw/categories/test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://example.com/categories/test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://example.com/ja/categories/test/"
+                />
+  </url><url>
+    <loc>https://example.com/ja/categories/%E3%83%86%E3%82%B9%E3%83%88/</loc>
+    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/ja/</loc>
+    <lastmod>2026-03-03T15:31:06+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.org/en/page/"
+                href="https://example.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://example.org/page/"
+                hreflang="zh-cn"
+                href="https://example.com/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/page/"
+                hreflang="zh-tw"
+                href="https://example.com/zh-tw/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/page/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/tags/photoswipe/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/tags/photoswipe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/tags/photoswipe/"
+                hreflang="ar"
+                href="https://example.com/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://example.org/ja/tags/photoswipe/"
+                href="https://example.com/ja/"
                 />
   </url><url>
-    <loc>https://example.org/ja/post/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/post/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/tags/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
+    <loc>https://example.com/ja/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.org/en/tags/"
+                href="https://example.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://example.org/tags/"
+                hreflang="zh-cn"
+                href="https://example.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/tags/"
+                hreflang="zh-tw"
+                href="https://example.com/zh-tw/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/tags/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.org/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/%E5%85%B3%E4%BA%8E/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/%E9%97%9C%E6%96%BC/"
+                hreflang="ar"
+                href="https://example.com/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://example.org/ja/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/p/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/p/%E7%9F%AD%E4%BB%A3%E7%A0%81/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/p/%E7%9F%AD%E4%BB%A3%E7%A2%BC/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/p/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/tags/%E9%9A%90%E7%A7%81/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/tags/%E9%9A%90%E7%A7%81/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/tags/%E9%9A%90%E7%A7%81/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/tags/%E9%9A%90%E7%A7%81/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/p/image-gallery/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/p/image-gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/p/image-gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/p/image-gallery/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/archives/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.org/en/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/archives/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.org/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/categories/documentation/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.org/en/categories/documentation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/categories/documentation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/categories/documentation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/categories/documentation/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/%E3%83%AA%E3%83%B3%E3%82%AF/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.org/en/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/%E9%93%BE%E6%8E%A5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/%E9%8F%88%E6%8E%A5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/%E3%83%AA%E3%83%B3%E3%82%AF/"
-                />
-  </url><url>
-    <loc>https://example.org/ja/search/</loc>
-    <lastmod>2026-03-03T11:42:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.org/en/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://example.org/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant-tw"
-                href="https://example.org/zh-hant-tw/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://example.org/ja/search/"
+                href="https://example.com/ja/tags/"
                 />
   </url>
 </urlset>
