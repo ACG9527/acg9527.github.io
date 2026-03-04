@@ -11,13 +11,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="https://example.com/ja/categories/"
+                hreflang="zh-cn"
+                href="https://example.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
-                href="https://example.com/categories/"
+                hreflang="ja"
+                href="https://example.com/ja/categories/"
                 />
     <xhtml:link
                 rel="alternate"
