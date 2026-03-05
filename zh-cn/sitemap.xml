@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://acg9527.github.io/categories/</loc>
-    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
+    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -31,10 +31,10 @@
                 />
   </url><url>
     <loc>https://acg9527.github.io/tags/hugo/</loc>
-    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
+    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/post/</loc>
-    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
+    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -52,7 +52,7 @@
                 />
   </url><url>
     <loc>https://acg9527.github.io/tags/</loc>
-    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
+    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -60,13 +60,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-tw"
-                href="https://acg9527.github.io/zh-tw/tags/"
+                hreflang="ja"
+                href="https://acg9527.github.io/ja/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="https://acg9527.github.io/ja/tags/"
+                hreflang="zh-tw"
+                href="https://acg9527.github.io/zh-tw/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -80,19 +80,19 @@
                 />
   </url><url>
     <loc>https://acg9527.github.io/tags/termux/</loc>
-    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
+    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
+    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
+    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/tags/%E6%89%8B%E6%9C%BA%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
+    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/p/%E7%94%A8-termux--hugo-%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
+    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/p/test-chinese/</loc>
     <lastmod>2026-03-04T14:02:02+08:00</lastmod>
@@ -117,70 +117,59 @@
   </url><url>
     <loc>https://acg9527.github.io/page/</loc>
     <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/archives/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/tags/css/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/tags/html/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/tags/markdown/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/p/markdown-syntax-guide/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/categories/syntax/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/categories/themes/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/tags/themes/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/tags/privacy/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/p/rich-content/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/tags/shortcodes/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/p/placeholder-text/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://acg9527.github.io/en/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://acg9527.github.io/ja/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://acg9527.github.io/zh-tw/page/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://acg9527.github.io/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/"
+                href="https://acg9527.github.io/ar/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://acg9527.github.io/p/placeholder-text/"
+                href="https://acg9527.github.io/page/"
                 />
   </url><url>
-    <loc>https://acg9527.github.io/tags/tag-with-whitespaces/</loc>
+    <loc>https://acg9527.github.io/archives/</loc>
     <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/categories/test-with-whitespaces/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/tags/text/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/p/math-typesetting/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/tags/emoji/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/p/emoji-support/</loc>
-    <lastmod>2026-03-04T14:02:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://acg9527.github.io/en/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://acg9527.github.io/ja/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://acg9527.github.io/zh-tw/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://acg9527.github.io/ar/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://acg9527.github.io/archives/"
+                />
   </url><url>
     <loc>https://acg9527.github.io/</loc>
     <lastmod>2026-03-04T14:02:02+08:00</lastmod>
@@ -214,6 +203,11 @@
     <lastmod>2026-03-04T14:02:02+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="en"
+                href="https://acg9527.github.io/en/categories/test/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh-tw"
                 href="https://acg9527.github.io/zh-tw/categories/test/"
                 />
@@ -230,11 +224,86 @@
   </url><url>
     <loc>https://acg9527.github.io/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2026-03-04T14:02:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://acg9527.github.io/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://acg9527.github.io/ja/%E3%81%8B%E3%82%93%E3%81%91%E3%81%84/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://acg9527.github.io/zh-tw/%E9%97%9C%E6%96%BC/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://acg9527.github.io/ar/%D8%AD%D9%88%D9%84/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://acg9527.github.io/%E5%85%B3%E4%BA%8E/"
+                />
   </url><url>
     <loc>https://acg9527.github.io/%E9%93%BE%E6%8E%A5/</loc>
     <lastmod>2026-03-04T14:02:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://acg9527.github.io/en/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://acg9527.github.io/ja/%E3%83%AA%E3%83%B3%E3%82%AF/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://acg9527.github.io/zh-tw/%E9%8F%88%E6%8E%A5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://acg9527.github.io/ar/%D8%B1%D9%88%D8%A7%D8%A8%D8%B7/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://acg9527.github.io/%E9%93%BE%E6%8E%A5/"
+                />
   </url><url>
     <loc>https://acg9527.github.io/search/</loc>
     <lastmod>2026-03-04T14:02:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://acg9527.github.io/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://acg9527.github.io/zh-tw/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://acg9527.github.io/ja/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://acg9527.github.io/ar/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://acg9527.github.io/search/"
+                />
   </url>
 </urlset>
