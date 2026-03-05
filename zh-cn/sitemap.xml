@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://acg9527.github.io/categories/</loc>
-    <lastmod>2026-03-04T16:24:13+08:00</lastmod>
+    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -11,13 +11,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-tw"
-                href="https://acg9527.github.io/zh-tw/categories/"
+                hreflang="ja"
+                href="https://acg9527.github.io/ja/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="https://acg9527.github.io/ja/categories/"
+                hreflang="zh-tw"
+                href="https://acg9527.github.io/zh-tw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -31,19 +31,19 @@
                 />
   </url><url>
     <loc>https://acg9527.github.io/tags/hugo/</loc>
-    <lastmod>2026-03-04T16:24:13+08:00</lastmod>
+    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/post/</loc>
-    <lastmod>2026-03-04T16:24:13+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://acg9527.github.io/ja/post/"
-                />
+    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://acg9527.github.io/zh-tw/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://acg9527.github.io/ja/post/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -52,7 +52,7 @@
                 />
   </url><url>
     <loc>https://acg9527.github.io/tags/</loc>
-    <lastmod>2026-03-04T16:24:13+08:00</lastmod>
+    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -80,19 +80,19 @@
                 />
   </url><url>
     <loc>https://acg9527.github.io/tags/termux/</loc>
-    <lastmod>2026-03-04T16:24:13+08:00</lastmod>
+    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2026-03-04T16:24:13+08:00</lastmod>
+    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2026-03-04T16:24:13+08:00</lastmod>
+    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/tags/%E6%89%8B%E6%9C%BA%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2026-03-04T16:24:13+08:00</lastmod>
+    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/p/%E7%94%A8-termux--hugo-%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2026-03-04T16:24:13+08:00</lastmod>
+    <lastmod>2026-03-05T08:40:38+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/p/test-chinese/</loc>
     <lastmod>2026-03-04T14:02:02+08:00</lastmod>
@@ -214,13 +214,13 @@
     <lastmod>2026-03-04T14:02:02+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="https://acg9527.github.io/ja/categories/test/"
+                hreflang="zh-tw"
+                href="https://acg9527.github.io/zh-tw/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-tw"
-                href="https://acg9527.github.io/zh-tw/categories/test/"
+                hreflang="ja"
+                href="https://acg9527.github.io/ja/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
