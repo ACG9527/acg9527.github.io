@@ -11,11 +11,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="https://acg9527.github.io/ja/page/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-cn"
                 href="https://acg9527.github.io/page/"
                 />
@@ -23,6 +18,11 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://acg9527.github.io/zh-tw/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://acg9527.github.io/ja/page/"
                 />
     <xhtml:link
                 rel="alternate"
