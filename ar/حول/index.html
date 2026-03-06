@@ -468,12 +468,58 @@
         &copy; 
         
         2026 松鹤
+         <a href="https://cloud.umami.is/share/1iwk9gmz2txpvXGa" target="_blank" style="color: inherit; text-decoration: none;">『访问统计』</a>
     </section>
+
+    <section class="site-stats" style="font-size: 0.9em; color: var(--card-text-color-main); line-height: 1.8;">
+    <div>
+        本博客已运行 <span id="blog-run-time"></span>
+    </div>
+
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    <div>
+        共发表 5 篇文章 · 总计 0.39k 字
+    </div>
+
+    <div>
+        本博客总访问量 <span id="busuanzi_value_site_pv">...</span> 次
+    </div>
+</section>
     
     <section class="powerby">
         مبني باستخدام <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
         قالب <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.34.2">Stack</a></b> مصمم من <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script>
+    function updateRunTime() {
+        
+        var birthDay = new Date("2026/3/01 00:00:00"); 
+        
+        var now = new Date();
+        var duration = now.getTime() - birthDay.getTime();
+        var days = Math.floor(duration / (24 * 3600 * 1000));
+        var hours = Math.floor((duration % (24 * 3600 * 1000)) / (3600 * 1000));
+        var minutes = Math.floor((duration % (3600 * 1000)) / (60 * 1000));
+        var seconds = Math.floor((duration % (60 * 1000)) / 1000);
+        document.getElementById("blog-run-time").innerHTML = 
+            days + " 天 " + hours + " 小时 " + minutes + " 分 " + seconds + " 秒";
+    }
+    setInterval(updateRunTime, 1000);
+</script>
 </footer>
 
 
