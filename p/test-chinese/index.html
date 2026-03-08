@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://acg9527.github.io/p/test-chinese/'>
 
-<link rel="stylesheet" href="/scss/style.min.86591c898bd806857815fbb8c47e8d3fed97c133b78e83d9bfc27b164dd0aa2b.css"><meta property='og:title' content="Chinese Test">
+<link rel="stylesheet" href="/scss/style.min.8a6bfdba6740fa406fc8bcc613db51763ca76d6c1a360b426d24864f06644618.css"><meta property='og:title' content="Chinese Test">
 <meta property='og:description' content="这是一个副标题">
 <meta property='og:url' content='https://acg9527.github.io/p/test-chinese/'>
 <meta property='og:site_name' content='松鹤'>
@@ -285,16 +285,19 @@
         <h2 class="widget-title section-title">目录</h2>
         
         <div class="widget--toc">
-            <nav id="TableOfContents">
+            <nav class="toc-nav" id="TableOfContents">
+                
   <ol>
     <li><a href="#正文测试">正文测试</a></li>
     <li><a href="#引用">引用</a></li>
     <li><a href="#图片">图片</a></li>
     <li><a href="#字体">字体</a></li>
   </ol>
-</nav>
+
+            </nav>
         </div>
     </section>
+
 
             
         
@@ -392,6 +395,29 @@
 </div>
 
 </header>
+    
+    
+    <aside class="article-toc">
+        <details>
+            <summary>
+                <div class="article-toc-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                    <span>目录</span>
+                </div>
+            </summary>
+            <nav class="toc-nav">
+                
+  <ol>
+    <li><a href="#正文测试">正文测试</a></li>
+    <li><a href="#引用">引用</a></li>
+    <li><a href="#图片">图片</a></li>
+    <li><a href="#字体">字体</a></li>
+  </ol>
+
+            </nav>
+        </details>
+    </aside>
+    
 
     <section class="article-content">
     
@@ -515,6 +541,120 @@
 
     
 </article>
+
+
+<div class="mobile-toc-overlay" id="mobileTocOverlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="目录">
+    <div class="mobile-toc-panel" id="mobileTocPanel">
+        <div class="mobile-toc-panel-header">
+            <span class="mobile-toc-panel-title">目录</span>
+            <button class="mobile-toc-panel-close" id="mobileTocClose" aria-label="关闭目录">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile-toc-panel-content">
+            <div class="toc-panel-clone">
+                
+  <ol>
+    <li><a href="#正文测试">正文测试</a></li>
+    <li><a href="#引用">引用</a></li>
+    <li><a href="#图片">图片</a></li>
+    <li><a href="#字体">字体</a></li>
+  </ol>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<button class="mobile-toc-fab" id="mobileTocFab" aria-label="打开目录" aria-expanded="false" aria-controls="mobileTocOverlay">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+</button>
+
+<script>
+(function() {
+    var fab = document.getElementById('mobileTocFab');
+    var overlay = document.getElementById('mobileTocOverlay');
+    var closeBtn = document.getElementById('mobileTocClose');
+    var panel = document.getElementById('mobileTocPanel');
+
+    if (!fab || !overlay) return;
+
+    function openToc() {
+        overlay.setAttribute('aria-hidden', 'false');
+        fab.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeToc() {
+        overlay.setAttribute('aria-hidden', 'true');
+        fab.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+    }
+
+    fab.addEventListener('click', openToc);
+    closeBtn && closeBtn.addEventListener('click', closeToc);
+
+    overlay.addEventListener('click', function(e) {
+        if (panel && !panel.contains(e.target)) {
+            closeToc();
+        }
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && overlay.getAttribute('aria-hidden') === 'false') {
+            closeToc();
+        }
+    });
+
+    panel && panel.addEventListener('click', function(e) {
+        if (e.target.closest('a')) {
+            closeToc();
+        }
+    });
+
+    var panelToc = document.querySelector('.toc-panel-clone');
+    var sourceToc = document.querySelector('.widget--toc .toc-nav')
+                 || document.querySelector('#TableOfContents')
+                 || document.querySelector('.toc-nav');
+
+    function syncActiveClass() {
+        if (!sourceToc || !panelToc) return;
+        panelToc.querySelectorAll('.active-class').forEach(function(el) {
+            el.classList.remove('active-class');
+        });
+        sourceToc.querySelectorAll('li.active-class').forEach(function(li) {
+            var a = li.querySelector('a');
+            if (!a) return;
+            var href = a.getAttribute('href');
+            var panelA = panelToc.querySelector('a[href="' + href + '"]');
+            if (panelA) {
+                panelA.closest('li').classList.add('active-class');
+            }
+        });
+    }
+
+    if (sourceToc) {
+        var observer = new MutationObserver(syncActiveClass);
+        observer.observe(sourceToc, {
+            attributes: true,
+            subtree: true,
+            attributeFilter: ['class']
+        });
+        syncActiveClass();
+    }
+})();
+</script>
+
+
 
     
 
