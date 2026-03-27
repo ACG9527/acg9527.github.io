@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://acg9527.github.io/p/%E6%B5%8B%E8%AF%95/'>
 
-<link rel="stylesheet" href="/scss/style.min.d46bce795f452255a6109edc078ff508ae3fdea9f9518b9091c9dfac33d43f62.css"><meta property='og:title' content="测试">
+<link rel="stylesheet" href="/scss/style.min.fea766c8c8c59a1c2c5d7adad46376c37225c1cedeaf2c3172269336184d2f99.css"><meta property='og:title' content="测试">
 <meta property='og:description' content="测试代码块 代码块\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 // ============================= // 代码块 // ============================= /* 自定义变量，想改高度改这里即可 */ $codeblock-max-height: 25em; /* ① 把最外层 .highlight 作为“唯一”滚动容器 */ .highlight { max-height: $codeblock-max-height; overflow: auto; /* 同时控制 X / Y 两个方向 */ -webkit-overflow-scrolling: touch; /* 移动端惯性滚动 */ } /* ② 关闭内部 pre / code 自己的滚动（否则会出现双滚动条） */ .highlight pre, .highlight code, .highlight .chroma { overflow: visible !important; /* 覆盖 Stack 里对 pre 的 overflow-x:auto */ } /* ③ 让行号用的表格按内容宽度自增，保证超宽时能触发 X 滚动 */ .lntable { display: inline-table; /* 仍然保持表格特性但可随内容变宽 */ min-width: max-content; border-spacing: 0; } /* ④ 禁止自动换行，超长行通过横向滚动处理 */ .lntd:last-child code, .highlight code { white-space: pre; /* 不折行 */ } .lntd:first-child { user-select: none; // 禁止选中行号 } 待更新\n">
 <meta property='og:url' content='https://acg9527.github.io/p/%E6%B5%8B%E8%AF%95/'>
 <meta property='og:site_name' content='松鹤'>
@@ -644,7 +644,14 @@ class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
      
     
         
-    <script
+        <div id="comments-consent-placeholder" class="consent-placeholder">
+            <p>评论已禁用，直到您接受功能性 Cookie。</p>
+            <button class="cookie-btn cookie-btn--primary" data-cookie-action="reopen">
+                管理偏好设置
+            </button>
+        </div>
+        <div id="comments-container" style="display: none;">
+            <script
     src="https://giscus.app/client.js"
     data-repo="ACG9527/acg9527.github.io"
     data-repo-id="R_kgDORdIGlQ"
@@ -694,6 +701,36 @@ class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
         }
     })();
 </script>
+        </div>
+        <script>
+        (function() {
+            var placeholder = document.getElementById('comments-consent-placeholder');
+            var container = document.getElementById('comments-container');
+
+            function showComments() {
+                if (placeholder) placeholder.style.display = 'none';
+                if (container) container.style.display = 'block';
+            }
+
+            function hideComments() {
+                if (placeholder) placeholder.style.display = 'block';
+                if (container) container.style.display = 'none';
+            }
+
+            window.addEventListener('onCookieConsentChange', function(e) {
+                if (e.detail && e.detail.functional) {
+                    showComments();
+                } else {
+                    hideComments();
+                }
+            });
+
+            
+            if (window.cookieConsent && window.cookieConsent.hasConsent('functional')) {
+                showComments();
+            }
+        })();
+        </script>
 
     
 
@@ -839,7 +876,63 @@ class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
 
             </main>
         </div>
-        <script 
+        
+    <div id="cookie-consent-banner" class="cookie-banner" aria-hidden="true" role="dialog" aria-labelledby="cookie-banner-title">
+    <div class="cookie-banner__content">
+        <div class="cookie-banner__text">
+            <strong id="cookie-banner-title">Cookie 同意</strong>
+            <p>我们使用 Cookie 来增强您的浏览体验并分析网站流量。</p>
+        </div>
+
+        <div class="cookie-banner__actions">
+            <button class="cookie-btn cookie-btn--secondary" data-cookie-action="deny">
+                拒绝
+            </button>
+            <button class="cookie-btn cookie-btn--primary" data-cookie-action="accept">
+                接受所有
+            </button>
+        </div>
+        <button class="cookie-banner__settings-link" data-cookie-action="settings">
+            管理偏好设置
+        </button>
+
+        
+        <div id="cookie-settings-panel" class="cookie-settings" aria-hidden="true">
+            <h3>Cookie 偏好设置</h3>
+
+            <div class="cookie-category">
+                <label>
+                    <input type="checkbox" name="necessary" checked disabled />
+                    <strong>必要</strong>
+                </label>
+                <p>这些 Cookie 是网站运行所必需的，无法禁用。</p>
+            </div><div class="cookie-category">
+                <label>
+                    <input type="checkbox" name="analytics" data-cookie-category="analytics" />
+                    <strong>分析</strong>
+                </label>
+                <p>这些 Cookie 帮助我们了解访问者如何与我们的网站互动。</p>
+            </div><div class="cookie-category">
+                <label>
+                    <input type="checkbox" name="functional" data-cookie-category="functional" />
+                    <strong>功能性</strong>
+                </label>
+                <p>这些 Cookie 启用评论和嵌入内容等功能.</p>
+            </div><div class="cookie-settings__actions">
+                <button class="cookie-btn cookie-btn--secondary" data-cookie-action="cancel">
+                    取消
+                </button>
+                <button class="cookie-btn cookie-btn--primary" data-cookie-action="save">
+                    保存偏好设置
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script type="text/javascript" src="/ts/cookies.6d3577f211db9f4f1997385d4b417cf90130b050bc9e787bb1bb5346d337e998.js" defer></script>
+<script 
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
@@ -1399,6 +1492,7 @@ FISH.prototype = {
 RENDERER.init();
 });
 </script>
+
 
 
     </body>
