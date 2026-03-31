@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://acg9527.github.io/p/%E6%B5%8B%E8%AF%95/'>
 
-<link rel="stylesheet" href="/scss/style.min.0b91940718361c7da5c06a8e1ff917c750971117bc28af66604cb21918317857.css"><meta property='og:title' content="测试">
+<link rel="stylesheet" href="/scss/style.min.99e87fcb4287aeda1d350915e7cbcb248a691ebe02b03010a3bf9b445b7c0633.css"><meta property='og:title' content="测试">
 <meta property='og:description' content="测试代码块 代码块\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 // ============================= // 代码块 // ============================= /* 自定义变量，想改高度改这里即可 */ $codeblock-max-height: 25em; /* ① 把最外层 .highlight 作为“唯一”滚动容器 */ .highlight { max-height: $codeblock-max-height; overflow: auto; /* 同时控制 X / Y 两个方向 */ -webkit-overflow-scrolling: touch; /* 移动端惯性滚动 */ } /* ② 关闭内部 pre / code 自己的滚动（否则会出现双滚动条） */ .highlight pre, .highlight code, .highlight .chroma { overflow: visible !important; /* 覆盖 Stack 里对 pre 的 overflow-x:auto */ } /* ③ 让行号用的表格按内容宽度自增，保证超宽时能触发 X 滚动 */ .lntable { display: inline-table; /* 仍然保持表格特性但可随内容变宽 */ min-width: max-content; border-spacing: 0; } /* ④ 禁止自动换行，超长行通过横向滚动处理 */ .lntd:last-child code, .highlight code { white-space: pre; /* 不折行 */ } .lntd:first-child { user-select: none; // 禁止选中行号 } 待更新\n">
 <meta property='og:url' content='https://acg9527.github.io/p/%E6%B5%8B%E8%AF%95/'>
 <meta property='og:site_name' content='松鹤'>
@@ -327,18 +327,6 @@
 
 
             <main class="main full-width">
-    <div id="article-toolbar">
-    <a href="/" class="back-home">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-             stroke-width="2" stroke="currentColor" fill="none"
-             stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z"/>
-            <polyline points="15 6 9 12 15 18" />
-        </svg>
-        <span>返回</span>
-    </a>
-    </div>
-
     <script>
     window.addEventListener('load', function () {
         document.getElementById('article-toolbar').classList.add('visible');
