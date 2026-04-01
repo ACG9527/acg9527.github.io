@@ -28,32 +28,16 @@
                 href="https://acg9527.github.io/en/page/"
                 />
   </url><url>
-    <loc>https://acg9527.github.io/en/categories/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://acg9527.github.io/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://acg9527.github.io/en/categories/"
-                />
-  </url><url>
-    <loc>https://acg9527.github.io/en/tags/css/</loc>
+    <loc>https://acg9527.github.io/en/post/</loc>
     <lastmod>2026-03-05T16:03:49+08:00</lastmod>
   </url><url>
-    <loc>https://acg9527.github.io/en/tags/html/</loc>
+    <loc>https://acg9527.github.io/en/tags/privacy/</loc>
     <lastmod>2026-03-05T16:03:49+08:00</lastmod>
   </url><url>
-    <loc>https://acg9527.github.io/en/tags/markdown/</loc>
+    <loc>https://acg9527.github.io/en/p/rich-content/</loc>
     <lastmod>2026-03-05T16:03:49+08:00</lastmod>
   </url><url>
-    <loc>https://acg9527.github.io/en/p/markdown-syntax-guide/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/categories/syntax/</loc>
+    <loc>https://acg9527.github.io/en/tags/shortcodes/</loc>
     <lastmod>2026-03-05T16:03:49+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/en/tags/</loc>
@@ -68,55 +52,6 @@
                 hreflang="en"
                 href="https://acg9527.github.io/en/tags/"
                 />
-  </url><url>
-    <loc>https://acg9527.github.io/en/categories/themes/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/tags/themes/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/tags/privacy/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/p/rich-content/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/tags/shortcodes/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/p/placeholder-text/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/tags/tag-with-whitespaces/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/categories/test/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://acg9527.github.io/categories/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://acg9527.github.io/en/categories/test/"
-                />
-  </url><url>
-    <loc>https://acg9527.github.io/en/categories/test-with-whitespaces/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/tags/text/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/p/math-typesetting/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/tags/emoji/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
-  </url><url>
-    <loc>https://acg9527.github.io/en/p/emoji-support/</loc>
-    <lastmod>2026-03-05T16:03:49+08:00</lastmod>
   </url><url>
     <loc>https://acg9527.github.io/en/about/</loc>
     <lastmod>2026-03-08T14:34:09+08:00</lastmod>
@@ -142,6 +77,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://acg9527.github.io/en/"
+                />
+  </url><url>
+    <loc>https://acg9527.github.io/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://acg9527.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://acg9527.github.io/en/categories/"
                 />
   </url><url>
     <loc>https://acg9527.github.io/en/links/</loc>
